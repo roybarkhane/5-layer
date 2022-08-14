@@ -42,7 +42,7 @@ Giant Waterproofing Co.
 <p style="margin-top:20px;">
     <strong> Giant’s 5 Layer Waterproofing treatment </strong>is a Waterproofing technique designed and
     developed for a
-    complete <strong>waterproofing solution with leakage free warranty for 7 years.</strong> This system
+    complete <strong>waterproofing solution with leakage free warranty for 10 years.</strong> This system
     can be applied for
     Waterproofing on RCC surfaces, Side Walls, Asbestos sheets, Tin Sheets, Water Tanks etc
 </p>
@@ -186,7 +186,7 @@ Giant Waterproofing Co.
                     <dd>Necessary construction water and power required forexecution of our work should be provided free of cost by you.</dd>
                 </li>
             </ol>
-            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 7 Years (Seven Years) (from the date of completion of the work )
+            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 10 Years (Ten Years) (from the date of completion of the work )
                 </h4>
             
         </dl>
