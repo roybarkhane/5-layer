@@ -66,10 +66,10 @@ Giant Waterproofing Co.
 
         <li>
             <dt>
-                Elastomeric:
+                SafeCoat:
             </dt>
             <dd>
-                <strong>Giant Elastomeric is a high performance elastomeric membrane for crack bridging.</strong> 
+                <strong>Giant SafeCoat is a high performance elastomeric membrane for crack bridging.</strong> 
                 It features curing through crosslinking and is highly UV durable. 
                 It features ability to elongate upto 250 percent. 
                 It can be used on variety of substrates as a mortar mix with sand and cement.
@@ -84,11 +84,11 @@ Giant Waterproofing Co.
     <li>Clean the surface by rubbing with wire brush & other mechanical tools to remove dust, and other
         loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
         RainPrime with cement.</li>
-    <li>Apply 1st Coat.( Neno Coat) Giant RainPrime and RainSiller.</li>
+    <li>Apply 1st Coat Giant RainPrime.</li>
     <li>Apply 2nd coating of Giant Fibermesh.</li>
     <li>Apply 3rd & 4th coating of Giant RainPrime with cement dilution (Highly waterproofing & crack
         resistant coating).</li>
-    <li>Apply 5th coating of Elastomeric with cement without dilution. Highly waterproofing &
+    <li>Apply 5th coating of SafeCoat with cement without dilution. Highly waterproofing &
         crack resistant coating).</li>
 </ol>
 </p>
@@ -117,22 +117,18 @@ Giant Waterproofing Co.
     <tbody>
         <tr>
             <td>1</td>
-            <td><strong>RainSiller</strong></td>
-        </tr>
-        <tr>
-            <td>2</td>
             <td><strong>RainPrime</strong></td>
         </tr>
         <tr>
-            <td>3</td>
+            <td>2</td>
             <td><strong>Elastomeric</strong></td>
         </tr>
         <tr>
-            <td>4</td>
+            <td>3</td>
             <td><strong>Fibermesh</strong></td>
         </tr>
         <tr>
-            <td>5</td>
+            <td>4</td>
             <td><strong>Cement</strong></td>
         </tr>
     </tbody>
@@ -186,7 +182,7 @@ Giant Waterproofing Co.
                     <dd>Necessary construction water and power required forexecution of our work should be provided free of cost by you.</dd>
                 </li>
             </ol>
-            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 10 Years (Ten Years) (from the date of completion of the work )
+            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 10 Years (Ten Years) (from the date of completion of the work ) <b>T&C Apply</b>
                 </h4>
             
         </dl>
