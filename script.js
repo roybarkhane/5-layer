@@ -199,7 +199,7 @@ Giant Waterproofing Co.
     <div class="contact">
         <h3>Contact US</h3>
         <p class="contact-details">
-            Name: <span class="name">Giant Sales Team</span>
+            Name: <span class="name">Giant Care Team</span>
             Mobile: <span class="mobile">+917470612116</span>
             Email: <span class="email">info@giant.com.co</span>
             Website: <span class="website">www.giantwaterproofing.in</span>
