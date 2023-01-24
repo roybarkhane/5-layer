@@ -1,35 +1,36 @@
-const f= document.getElementById("data");
-function printDocument(){
-    const backup=document.body.innerHTML;
-    document.body.innerHTML=`<main>${document.querySelector("main").innerHTML}</main>`;
+const f = document.getElementById("data");
+function printDocument() {
+    const backup = document.body.innerHTML;
+    document.body.innerHTML = `<main>${document.querySelector("main").innerHTML}</main>`;
     window.print();
 }
-f.addEventListener('submit',(e)=>{
+f.addEventListener('submit', (e) => {
     e.preventDefault();
-    const ab=document.getElementById("browser").value;
-    const name=document.getElementById('name').value;
-    const add=document.getElementById("address").value;
-    const feet=document.getElementById("feet").value;
-    const rate=document.getElementById('rate').value;
-    const date= new Date();
-    const print =document.createElement('button');
+    const ab = document.getElementById("browser").value;
+    const name = document.getElementById('name').value;
+    const add = document.getElementById("address").value;
+    const feet = document.getElementById("feet").value;
+    const rate5 = document.getElementById('rate5').value;
+    document.title=ab+''+name+' Giant 5 Layer Quote';
+    const date = new Date();
+    const print = document.createElement('button');
     print.classList.add('button');
-    print.textContent='print';
-    const btnsection= document.querySelector('.btn');
-    btnsection.innerHTML="";
+    print.textContent = 'print';
+    const btnsection = document.querySelector('.btn');
+    btnsection.innerHTML = "";
     btnsection.appendChild(print);
-    print.addEventListener('click',printDocument);
-    document.querySelector("main").innerHTML=`
+    print.addEventListener('click', printDocument);
+    document.querySelector("main").innerHTML = `
     <div class="logo"><img src="logo.png" alt=""></div>
 <h2 class="company-name">
-Giant Waterproofing Co.
+Giant Waterproofing Company
 </h2>
 <div class="reg-date">
-    <div class="reg-num">GWC/R/16776/2022</div>
-    <div class="date"><span class="dd">${(date.getDate()<10)?'0'+date.getDate():date.getDate()}</span>.<span class="mm">${((date.getMonth()+1)<10)?'0'+(date.getMonth()+1):date.getMonth()+1}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
+    <div class="reg-num">GWC/R/32446/2023</div>
+    <div class="date"><span class="dd">${(date.getDate() < 10) ? '0' + date.getDate() : date.getDate()}</span>.<span class="mm">${((date.getMonth() + 1) < 10) ? '0' + (date.getMonth() + 1) : date.getMonth() + 1}</span>.<span class="yyyy">${date.getFullYear()}</span></div>
 </div>
 <div class="name-add">
-    <h3 class="name">${ab+' '+name}</h2>
+    <h3 class="name">${ab + ' ' + name}</h2>
     <h3 class="address">${add}</h2>
 </div>
 <h4 class="title">Re: Waterprofing on Roof</h2>
@@ -39,10 +40,59 @@ Giant Waterproofing Co.
     We thank you very much for your kind inquiry for waterproofing on Roof area. <strong>Giant</strong> is a leading waterproofing expert assuring the right waterproofing solutions for <strong>leak-free homes </strong>
     with the best waterproofing <strong>services in India</strong>.
 </p>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #00a2ff;
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #00a2ff;
+}
+
+</style>
+
+
+
+&nbsp;
+<center><h3>Waterproofing Services with Rate</h3></center>
+
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Sqft × rate</th>
+    <th>Amount </th>
+  </tr>
+  <tr>
+    <td><h2>5 Layer Working</h2>
+    <b>(10 Year Warranty)<b></td>
+    <td><b><span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span><b></td>
+    <td><b><span class="total"><h2>&#x20B9;${feet * rate5 * 118 / 100}</span></h2><b>
+(18 % GST Including)</td>
+  </tr>
+  
+  
+</table>
+
+
+
+
+
+
+
+
 <p style="margin-top:20px;">
-    <strong> Giant’s 5 Layer Waterproofing treatment </strong>is a Waterproofing technique designed and
+    <strong> Giant’s Layer Waterproofing treatment </strong>is a Waterproofing technique designed and
     developed for a
-    complete <strong>waterproofing solution with leakage free warranty for 10 years.</strong> This system
+    complete <strong>waterproofing solution with leakage free warranty for years.</strong> This system
     can be applied for
     Waterproofing on RCC surfaces, Side Walls, Asbestos sheets, Tin Sheets, Water Tanks etc
 </p>
@@ -50,13 +100,7 @@ Giant Waterproofing Co.
 ">Description of Chemicals:</h3>
 <dl class="chem-des">
     <ol>
-        <li>
-            <dt>
-                RainSiler :
-            </dt>
-            <dd>
-                 <strong>RainSiller is a reactive organosilane based waterproofing agent that seals upto nano-pore level.</strong> It has an ability to penetrate upto 2 mm deep inside the substrate and becomes a permanent integral part of the structure. It reacts and converts the hydrophilic chemical groups of the substrate into hyrdrophobic groups. RainSiller is water dilutable, safe, sprayable and easy to apply. RainSiller is non-leachable, UV resistant, breathable and does not present peel-off issues unlike conventional polymer coatings.
-        </li>
+       
         <li>
             <dt>
                 RainPrime :
@@ -69,7 +113,7 @@ Giant Waterproofing Co.
                 SafeCoat:
             </dt>
             <dd>
-                <strong>Giant SafeCoat is a high performance elastomeric membrane for crack bridging.</strong> 
+                <strong>Giant Elastomeric is a high performance elastomeric membrane for crack bridging.</strong> 
                 It features curing through crosslinking and is highly UV durable. 
                 It features ability to elongate upto 250 percent. 
                 It can be used on variety of substrates as a mortar mix with sand and cement.
@@ -78,18 +122,20 @@ Giant Waterproofing Co.
     </ol>
 </dl>
 </p>
+</p>
+
+
+
+
 <h2 class="procedure">Waterproofing with Procedure (5 layer)</h2>
 <p class="description">
 <ol style="margin-left: 50px; line-height:1.8rem; font-weight:600; font-style:italic;">
     <li>Clean the surface by rubbing with wire brush & other mechanical tools to remove dust, and other
-        loose materials. Repairing of Cracks work will be carried out as per requirement on Basement by
-        RainPrime with cement.</li>
-    <li>Apply 1st Coat Giant RainPrime.</li>
+        loose materials. Repairing of Cracks work will be carried out as per requirement on Roof.</li>
+    <li>Apply 1st Coat Giant RainPrime with cement.</li>
     <li>Apply 2nd coating of Giant Fibermesh.</li>
-    <li>Apply 3rd & 4th coating of Giant RainPrime with cement dilution (Highly waterproofing & crack
-        resistant coating).</li>
-    <li>Apply 5th coating of SafeCoat with cement without dilution. Highly waterproofing &
-        crack resistant coating).</li>
+    <li>Apply 3rd & 4th coating of Giant RainPrime with cement dilution.</li>
+    <li>Apply 5th coating of SafeCoat with cement without dilution.</li>
 </ol>
 </p>
 <h2 class="area-detail-heading">Area Details Provided By Candidate</h2>
@@ -98,11 +144,12 @@ Giant Waterproofing Co.
 </p>
 <h2 class="Rate-heading">Rate:</h2>
 <p class="Rate-details">
-    Rs <strong class="rate">${rate}</strong> per sq fit.(Rates are inclusive Chemicals, mechanical tools, Labor, & Supervision etc)
+    Rs <strong class="rate">${rate5}</strong> per sq fit.(Rates are inclusive Chemicals, mechanical tools, Labor, & Supervision etc)
 </p>
-<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate} </span>=<span class="total">&#x20B9;${feet*rate}</span></h2>
+<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span>=<span class="total">&#x20B9;${feet * rate5 * 118 / 100} Cost of 5 layer waterproofing</span></h2>
 
 <h3 style="color: red; margin: 50px 0; ">Note:</h3>
+<p style="border:1px solid red; padding:15px;">Cement must be provided by customer as per requirement</p>
 <p style="border:1px solid red; padding:15px;">All details provided by candidate via tele-communication is considered in this document. If any changes found while measuring area on site, then that area will be considered in contract and amount will changed accordingly.</p>
 <h3 style="margin-top: 40px; text-align:center;">Product for Terrace Waterproofing
     Area <span class="total">${feet}</span>.ft (Approx.)
@@ -121,7 +168,7 @@ Giant Waterproofing Co.
         </tr>
         <tr>
             <td>2</td>
-            <td><strong>Elastomeric</strong></td>
+            <td><strong>SafeCoat</strong></td>
         </tr>
         <tr>
             <td>3</td>
@@ -134,13 +181,28 @@ Giant Waterproofing Co.
     </tbody>
 </table>
 <div class="t-and-d">
+
+
+                
+</li>
+            </ol>
+            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 10 Years (Ten Years) (for 5 Layer Waterproofing Service ) <b>T&C Apply</b>
+                </h4> 
+
+
+
+
+
+
+
+
     <h2>Terms and Conditions</h2>
     <p>
         <dl>
             <ol>
                 <li>
                     <dt>Taxes:</dt>
-                    <dd><strong>18 % GST Extra.</strong></dd>
+                    <dd><strong>18 % GST Including.</strong></dd>
                 </li>
                 <li>
                     <dt>Payment Terms:</dt>
@@ -180,10 +242,7 @@ Giant Waterproofing Co.
                 <li>
                     <dt>Water and Electricity:</dt>
                     <dd>Necessary construction water and power required forexecution of our work should be provided free of cost by you.</dd>
-                </li>
-            </ol>
-            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 10 Years (Ten Years) (from the date of completion of the work ) <b>T&C Apply</b>
-                </h4>
+                
             
         </dl>
     </p>
@@ -199,15 +258,14 @@ Giant Waterproofing Co.
     <div class="contact">
         <h3>Contact US</h3>
         <p class="contact-details">
-            Name: <span class="name">Giant Care Team</span>
-            Mobile: <span class="mobile">+917470612116</span>
-            Email: <span class="email">info@giant.com.co</span>
-            Website: <span class="website">www.giantwaterproofing.in</span>
+            Name: <b><span class="name">Giant Care Team</span></b>
+            Mobile: <b><span class="mobile">+917470612116</span></b>
+            Email: <b><span class="email">info@giant.com.co</span></b>
+            Website: <b><span class="website">www.giantwaterproofing.in</span></b>
         </p>
     </div>
     <div class="footer">
-        <h2>Address</h2>
-        <p class="address"><strong>HEAD OFFICE</strong>: Giant Waterproofing Co. Office at Lal Bahadur Shastri Rd, Kismat Nagar, Kurla, Mumbai, Maharashtra 400070</p>
+       
     </div></div>
     `;
 });
