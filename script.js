@@ -186,7 +186,7 @@ tr:nth-child(even) {
                 
 </li>
             </ol>
-            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 10 Years (Ten Years) (for 5 Layer Waterproofing Service ) <b>T&C Apply</b>
+            <h4 style="border:1px solid blue; padding: 20px; margin-top:20px;">Warranty : 5 Years (five Years) (for 5 Layer Waterproofing Service ) <b>T&C Apply</b>
                 </h4> 
 
 
