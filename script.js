@@ -75,7 +75,7 @@ tr:nth-child(even) {
     <td><h2>5 Layer Working</h2>
     <b>(5 Year Warranty)<b></td>
     <td><b><span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span><b></td>
-    <td><b><span class="total"><h2>&#x20B9;${feet * rate5 * / 100}</span></h2><b>
+    <td><b><span class="total"><h2>&#x20B9;${feet * rate5}</span></h2><b>
 (18 % GST Including)</td>
   </tr>
   
@@ -146,7 +146,7 @@ tr:nth-child(even) {
 <p class="Rate-details">
     Rs <strong class="rate">${rate5}</strong> per sq fit.(Rates are inclusive Chemicals, mechanical tools, Labor, & Supervision etc)
 </p>
-<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span>=<span class="total">&#x20B9;${feet * rate5 * 118 / 100} Cost of 5 layer waterproofing</span></h2>
+<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span>=<span class="total">&#x20B9;${feet * rate5 } Cost of 5 layer waterproofing</span></h2>
 
 <h3 style="color: red; margin: 50px 0; ">Note:</h3>
 <p style="border:1px solid red; padding:15px;">Cement must be provided by customer as per requirement</p>
