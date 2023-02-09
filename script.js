@@ -73,7 +73,7 @@ tr:nth-child(even) {
   </tr>
   <tr>
     <td><h2>5 Layer Working</h2>
-    <b>(10 Year Warranty)<b></td>
+    <b>(5 Year Warranty)<b></td>
     <td><b><span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span><b></td>
     <td><b><span class="total"><h2>&#x20B9;${feet * rate5 * 118 / 100}</span></h2><b>
 (18 % GST Including)</td>
