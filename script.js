@@ -146,8 +146,7 @@ tr:nth-child(even) {
 <p class="Rate-details">
     Rs <strong class="rate">${rate5}</strong> per sq fit.(Rates are inclusive Chemicals, mechanical tools, Labor, & Supervision etc)
 </p>
-<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span>=<span class="total">&#x20B9;${feet * rate5 } Cost of 5 layer waterproofing</span></h2>
-
+<h2 class="total-amount" style="border: 1px solid blue; display:inline-block; padding: 10px;">Total Amount: <span class="sqfit"> ${feet} </span>&times;<span class="rate"> ${rate5} </span>=<span class="total">&#x20B9;${feet * rate5 * 118 / 100} Cost of 5 layer waterproofing</span></h2>
 <h3 style="color: red; margin: 50px 0; ">Note:</h3>
 <p style="border:1px solid red; padding:15px;">Cement must be provided by customer as per requirement</p>
 <p style="border:1px solid red; padding:15px;">All details provided by candidate via tele-communication is considered in this document. If any changes found while measuring area on site, then that area will be considered in contract and amount will changed accordingly.</p>
